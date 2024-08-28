@@ -42,7 +42,7 @@ const Products = ({
                   <span className="sr-only">View</span>
                 </Link>
                 <img
-                  src="/placeholder.svg"
+                  src={product.imgUrl}
                   alt={product.name}
                   width={300}
                   height={300}

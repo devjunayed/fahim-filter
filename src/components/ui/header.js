@@ -1,30 +1,49 @@
-import Link from 'next/link'
-import React from 'react'
-import { GlassWaterIcon } from '../icons/icons'
+import React from "react";
 
 const Header = () => {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center">
-    <Link href="#" className="flex items-center justify-center" prefetch={false}>
-      <GlassWaterIcon className="h-6 w-6" />
-      <span className="sr-only">Pure Water Filters</span>
-    </Link>
-    <nav className="ml-auto flex gap-4 sm:gap-6">
-      <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-        Products
-      </Link>
-      <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-        Features
-      </Link>
-      <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-        Reviews
-      </Link>
-      <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-        Contact
-      </Link>
-    </nav>
-  </header>
-  )
-}
+    <header className="navbar bg-base-100">
+      <div className="navbar-start">
+        {/* <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a>Homepage</a>
+            </li>
+            <li>
+              <a>Portfolio</a>
+            </li>
+            <li>
+              <a>About</a>
+            </li>
+          </ul>
+        </div> */}
+      </div>
+      <div className="navbar-center">
+       <img src="logo.svg" alt="logo" className="w-5/12 mx-auto" />
+      </div>
+      <div className="navbar-end">     
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
