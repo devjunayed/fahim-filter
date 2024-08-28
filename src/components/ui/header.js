@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="navbar bg-base-100">
-      <div className="navbar-start">
+    <header className="p-2 w-full flex items-center  min-h-16 bg-base-100">
+      <div className="">
         {/* <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             <svg
@@ -37,11 +37,10 @@ const Header = () => {
           </ul>
         </div> */}
       </div>
-      <div className="navbar-center">
+      <div className="mx-auto">
        <img src="logo.svg" alt="logo" className="w-5/12 mx-auto" />
       </div>
-      <div className="navbar-end">     
-      </div>
+
     </header>
   );
 };
