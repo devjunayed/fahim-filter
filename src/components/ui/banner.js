@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <section
-      className="hero min-h-screen"
+      className="hero min-h-[80vh] md:min-h-screen"
       style={{
         backgroundImage: "url(banner.png)",
       }}
