@@ -35,60 +35,12 @@ const Reviews = () => {
                     </div>
                   </div>
                   <p className="text-sm leading-relaxed">
-                    "I've been using the Pure Water Filter for a few months\n
-                    now, and I'm so impressed with the difference it's made in\n
-                    the taste and quality of my water. Highly recommended!"
+                    &qout;I&apos;ve been using the Pure Water Filter for a few months\n
+                    now, and I&apos;m so impressed with the difference it&apos;s made in\n
+                    the taste and quality of my water. Highly recommended!&qout;
                   </p>
                 </div>
-                <div className="flex flex-col items-start gap-4 p-6 rounded-lg bg-muted">
-                  <div className="flex items-center gap-2">
-                    <img
-                      src="/placeholder.svg"
-                      alt="Customer 2"
-                      width={48}
-                      height={48}
-                      className="rounded-full"
-                      style={{ aspectRatio: "48/48", objectFit: "cover" }}
-                    />
-                    <div>
-                      <h4 className="font-semibold">Jane Smith</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Satisfied Customer
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-sm leading-relaxed">
-                    "I was hesitant to try a water filter at first, but the\n
-                    Pure Water Filter has exceeded my expectations. It's easy\n
-                    to use and has made a noticeable difference in the\n
-                    cleanliness and taste of my water."
-                  </p>
-                </div>
-                <div className="flex flex-col items-start gap-4 p-6 rounded-lg bg-muted">
-                  <div className="flex items-center gap-2">
-                    <img
-                      src="/placeholder.svg"
-                      alt="Customer 3"
-                      width={48}
-                      height={48}
-                      className="rounded-full"
-                      style={{ aspectRatio: "48/48", objectFit: "cover" }}
-                    />
-                    <div>
-                      <h4 className="font-semibold">Michael Johnson</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Satisfied Customer
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-sm leading-relaxed">
-                    "I've tried several water filters in the past, but the
-                    Pure\n Water Filter is by far the best. It's easy to
-                    install, and\n the water tastes amazing. I highly recommend
-                    it to anyone\n looking for a reliable and effective water
-                    filtration\n solution."
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>
