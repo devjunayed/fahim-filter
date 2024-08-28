@@ -9,6 +9,8 @@ import Footer from "@/components/ui/footer";
 import Reviews from "@/components/ui/what-customer-says";
 import Products from "@/components/ui/Products/Products";
 
+
+
 export default function Component() {
   const [currentPage, setCurrentPage] = useState(1);
   const [productsPerPage] = useState(8);
